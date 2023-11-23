@@ -1,6 +1,7 @@
 from aiogram import Dispatcher, executor, Bot, types
 from settings import TOKEN_API
 import texts, keyboards
+import asyncio
 
 bot = Bot(TOKEN_API)
 dp = Dispatcher(bot)

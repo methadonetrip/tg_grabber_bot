@@ -1,4 +1,5 @@
 from aiogram.types import KeyboardButton, ReplyKeyboardMarkup
+import asyncio
 
 start = ReplyKeyboardMarkup(resize_keyboard=True)
 b1 = KeyboardButton("Работа")
