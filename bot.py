@@ -27,7 +27,6 @@ add_channel_button = KeyboardButton('add_channel') # do
 add_keyword_button = KeyboardButton('add_keyword') # not 
 remove_channel_button = KeyboardButton('remove_channel') # work
 remove_keyword_button = KeyboardButton('remove_keyword') # normally
-artem_trahni = KeyboardButton('Artem, trahni plz po bratski))')
 keyboard.row(subscribe_button, unsubscribe_button, list_button)
 keyboard.row(add_channel_button, add_keyword_button)
 keyboard.row(remove_channel_button, remove_keyword_button)
